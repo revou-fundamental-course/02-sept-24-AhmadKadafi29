@@ -1,3 +1,8 @@
+.section-btn.active {
+  background-color: aqua; 
+  color: black;
+}
+
 .main-header {
   text-align: center;
 }
@@ -8,20 +13,17 @@
 }
 
 .section-btn {
+  background-color: bisque; 
+  color: black;
   height: 32px;
   border: none;
   border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
 }
 
-.bisque-color {
-  background-color: bisque;
-}
 
-.aqua-color {
-  background-color: aqua;
-}
-
-.luas-segitiga-header {
+.luas-header {
   padding-top: 32px;
   padding-bottom: 32px;
   margin: 0;
@@ -29,7 +31,7 @@
   text-align: center;
 }
 
-.luas-segitiga-content{
+.luas-content{
   display: flex;
   flex-direction: column;
 }
@@ -43,7 +45,18 @@
   align-self: center;
 }
 
-.luas-segitiga-form-header {
+.luas-jajargenjang-img {
+  background-image: url(https://awsimages.detik.net.id/community/media/visual/2021/09/20/jajar-genjang.jpeg?w=576);
+  height: 300px;
+  width: 650px;
+  background-size: cover;
+  background-position: center;
+  align-self: center;
+}
+
+
+
+.luas-form-header {
   text-align: center;
 }
 
@@ -65,6 +78,17 @@ input[type="number"] {
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+}
+
+.hitung {
+  background-color: #04AA6D; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
 }
 
 .main-content {
